@@ -16,7 +16,8 @@
                 welcome page and also update the welcome-file setting in</i>
             <tt>web.xml</tt>.</p>
         
-        <a href="login.htm">ir a login</a>
-        <a href="reniec.htm">consultar dni</a>
+        <a href="login.htm">ir a login</a><br>
+        <a href="RegistroUsuario.htm">registrar usuario</a>
+        
     </body>
 </html>

@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>ÉXITO!</h1>
-        <label>Nombre : ${nombre}</label>      
+        <label>Nombre : ${msj}</label>      
          <a href="index.htm">ir a index</a>
          
     </body>

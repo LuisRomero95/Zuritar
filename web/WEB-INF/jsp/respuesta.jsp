@@ -1,6 +1,6 @@
 <%-- 
-    Document   : exito
-    Created on : 04/09/2019, 17:00:01
+    Document   : respuesta2
+    Created on : 10/09/2019, 17:36:18
     Author     : LMROMERO
 --%>
 
@@ -12,9 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>ÉXITO!</h1>
-        <label>Nombre : ${msj}</label>      
-         <a href="index.htm">ir a index</a>
-         
+        <h1>${msj}</h1>
     </body>
 </html>

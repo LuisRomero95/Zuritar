@@ -23,7 +23,8 @@
                 <prop key="login.htm">loginControlador</prop>
                 <prop key="exito.htm">loginControlador</prop>
                 <prop key="error.htm">loginControlador</prop>
-                <prop key="reniec.htm">usuarioControlador</prop>                
+                <prop key="RegistroUsuario.htm">usuarioControlador</prop>
+                <prop key="respuesta.htm">usuarioControlador</prop>
             </props>
         </property>
     </bean>

@@ -40,7 +40,7 @@ public class LoginControlador {
         String nombre = request.getParameter("nombre");
         String contra = request.getParameter("contra");
         //String sql = "SELECT * FROM clientes WHERE nombre = '"+nombre+"' AND contraseña = '"+contra+"'";
-        String sql = "SELECT * FROM clientes WHERE nombre = ? AND contraseña =?";
+        String sql = "SELECT nom, contraseña FROM usuarios WHERE nom = ? AND contraseña =?";
         List est =  this.jt.queryForList(sql, nombre, contra);
         if(est.size() > 0){
             return new ModelAndView("redirect:/exito.htm");

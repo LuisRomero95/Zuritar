@@ -16,6 +16,10 @@
         <h1>Ingrese DNI</h1>
         <label>DNI</label>
         <input type="text" name="dni"><br>
+        <label>CORREO</label>
+        <input type="text" name="correo"><br>
+        <label>PASSWORD</label>
+        <input type="text" name="contra"><br>
         <input type="submit" value="Verificar"><br>            
         </form>
         
